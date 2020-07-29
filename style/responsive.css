@@ -1,0 +1,125 @@
+/*    MEDIAQUERIES
+----------------------------------------------------- */
+.title-mobile {
+    display: none;
+    background: #1949B5;
+    border-radius: 10px;
+}
+.title-mobile h4 {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.tiem-kiem-mobile {
+    display: none;
+}
+.btn-them-dv-mobile {
+    display: none;
+}
+/* ADMIN-SETTING */
+@media (max-width: 1340px) {
+    .header-content .title {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .header-container .header-center {
+        display: none;
+    }
+    #content .header-content .header-menu {
+        display: none;
+    }
+    .header-content .title {
+        display: block;
+    }
+    .footer-container .rowfoot-top {
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+   
+    #sidebar {
+        min-width: 80px;
+        max-width: 80px;
+        margin-left: -80px !important ;
+    }
+    a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+        top: auto;
+        bottom: 5px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+    #sidebar {
+        margin-left: 0;
+    }
+    #content .btn-close-menu p::before {
+        content: "\BB";
+    }
+    .btn-close-menu.action p::before  {
+        content: "\AB" !important;
+    }
+    .btn-them-dv-desktop {
+        display: none;
+    }
+    .btn-them-dv-mobile {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    #admin-box-mobile {
+        display: block !important;
+    }
+    .header-container {
+        display: none;
+    }
+    .header-content .title {
+        display: none;
+    }
+    .title-mobile {
+        display: block;
+    }
+    .tiem-kiem-desktop {
+        display: none;
+    }
+    .tiem-kiem-mobile {
+        display: block;
+    }
+    .btn-them-dv a {
+        font-size: 13px !important;
+    }
+    .footer-left img {
+        width: 80px !important;
+    }
+}
+@media (max-width: 478px) {
+    /* .header-container {
+        padding-right: 10px;
+        height: 60px;
+    }
+    .header-container .header-left {
+        width: 150px;
+        height: 100%;
+        background: #1949B5;
+        padding: 5px 0 5px 30px;
+    }
+    .header-left h1 {
+        font-size: 30px;
+    }
+    .header-container .header-left::before {
+        right: -30px;
+        border-left: 30px solid #1949B5;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+    } */
+    .breadcrumb {
+        display: none;
+    }
+}
